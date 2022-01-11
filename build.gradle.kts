@@ -26,12 +26,12 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-security")
 
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
-	implementation("org.jetbrains.kotlin:kotlin-reflect")
-	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 	implementation("org.springframework.boot:spring-boot-starter-test")
 	implementation("mysql:mysql-connector-java")
 	compileOnly("org.apache.tomcat.embed:tomcat-embed-jasper")
 	implementation("javax.servlet:jstl")
+
+	testImplementation("org.springframework.boot:spring-boot-starter-test")
 
 	// spring-security-taglibs
 	implementation("org.springframework.security:spring-security-taglibs")
