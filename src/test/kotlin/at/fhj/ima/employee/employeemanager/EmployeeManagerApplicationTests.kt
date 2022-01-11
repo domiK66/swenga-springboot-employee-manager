@@ -1,13 +1,13 @@
 package at.fhj.ima.employee.employeemanager
 
 import org.junit.jupiter.api.Test
-import org.springframework.boot.test.context.SpringBootTest
+import org.junit.jupiter.api.Assertions
 
-@SpringBootTest
-class EmployeeManagerApplicationTests {
+internal class EmployeeManagerApplicationTests {
 
 	@Test
 	fun contextLoads() {
+
 	}
 
 }
