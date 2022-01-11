@@ -1,5 +1,4 @@
 HELP.md
-.gradle
 /docker-compose.yml
 build/
 !**/src/main/**/build/
