@@ -47,4 +47,8 @@ tasks.withType<KotlinCompile> {
 tasks.withType<Test> {
 	useJUnitPlatform()
 	ignoreFailures = true
+	reports {
+		junitXml.isEnabled = true
+		html.isEnabled = false
+	}
 }
